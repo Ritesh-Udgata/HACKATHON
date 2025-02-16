@@ -1,0 +1,501 @@
+ * Running on http://127.0.0.1:5000
+2024-11-10 05:40:25,406 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-10 05:40:25,406 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 05:40:31,513 - __main__ - INFO - Starting Flask application...
+2024-11-10 05:40:31,528 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2024-11-10 05:40:31,639 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-10 05:40:32,237 - __main__ - INFO - Successfully loaded model and encoder
+2024-11-10 05:40:32,237 - __main__ - INFO - Model loaded successfully
+2024-11-10 05:40:32,648 - __main__ - INFO - Successfully loaded drug data
+2024-11-10 05:40:32,653 - __main__ - INFO - Data files loaded successfully
+2024-11-10 05:40:32,653 - __main__ - INFO - Number of diseases in data: 197
+2024-11-10 05:40:32,653 - __main__ - INFO - Number of drug interactions: 191148
+2024-11-10 05:40:32,653 - __main__ - INFO - Number of side effects: 2931
+2024-11-10 05:40:32,655 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 05:40:32,655 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2024-11-10 05:40:41,554 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 05:40:41] "GET / HTTP/1.1" 200 -
+2024-11-10 05:40:42,534 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 05:40:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-10 05:40:42,735 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 05:40:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-15 22:41:26,224 - __main__ - INFO - Starting Flask application...
+2025-02-15 22:41:26,250 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-15 22:41:26,370 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-15 22:41:32,537 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-15 22:41:32,537 - __main__ - INFO - Model loaded successfully
+2025-02-15 22:41:32,917 - __main__ - INFO - Successfully loaded drug data
+2025-02-15 22:41:32,917 - __main__ - INFO - Data files loaded successfully
+2025-02-15 22:41:32,917 - __main__ - INFO - Number of diseases in data: 197
+2025-02-15 22:41:32,917 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-15 22:41:32,917 - __main__ - INFO - Number of side effects: 2931
+2025-02-15 22:41:32,933 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-15 22:41:32,933 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-15 22:41:32,933 - werkzeug - INFO -  * Restarting with stat
+2025-02-15 22:41:36,815 - __main__ - INFO - Starting Flask application...
+2025-02-15 22:41:36,829 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-15 22:41:36,924 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-15 22:41:37,369 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-15 22:41:37,369 - __main__ - INFO - Model loaded successfully
+2025-02-15 22:41:37,746 - __main__ - INFO - Successfully loaded drug data
+2025-02-15 22:41:37,746 - __main__ - INFO - Data files loaded successfully
+2025-02-15 22:41:37,746 - __main__ - INFO - Number of diseases in data: 197
+2025-02-15 22:41:37,746 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-15 22:41:37,746 - __main__ - INFO - Number of side effects: 2931
+2025-02-15 22:41:37,756 - werkzeug - WARNING -  * Debugger is active!
+2025-02-15 22:41:37,761 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-15 22:41:57,984 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 22:41:57] "GET / HTTP/1.1" 200 -
+2025-02-15 22:41:58,040 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 22:41:58] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-15 22:42:11,376 - __main__ - INFO - Received prediction request
+2025-02-15 22:42:11,412 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-15 22:42:11,412 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-15 22:42:11,804 - __main__ - INFO - Successfully loaded drug data
+2025-02-15 22:42:13,997 - __main__ - INFO - Successfully generated prediction response
+2025-02-15 22:42:13,997 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2025 22:42:13] "POST /predict HTTP/1.1" 200 -
+2025-02-16 08:13:37,060 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:13:37,102 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:13:37,264 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:13:38,273 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:13:38,273 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:13:38,744 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:13:38,744 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:13:38,744 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:13:38,744 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:13:38,744 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:13:38,760 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 08:13:38,760 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 08:13:38,776 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:13:42,966 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:13:42,982 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:13:43,078 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:13:43,557 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:13:43,557 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:13:44,011 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:13:44,011 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:13:44,011 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:13:44,011 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:13:44,011 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:13:44,011 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 08:13:44,028 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 08:13:49,639 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 08:13:49] "GET / HTTP/1.1" 200 -
+2025-02-16 08:13:49,713 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 08:13:49] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-16 08:13:49,753 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 08:13:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-16 08:24:03,420 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 08:24:04,435 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:24:08,747 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:24:08,763 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:24:08,866 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:24:09,379 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:24:09,379 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:24:09,762 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:24:09,762 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:24:09,762 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:24:09,762 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:24:09,762 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:24:09,762 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 08:24:09,762 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 08:24:14,860 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 08:24:15,616 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:24:20,138 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:24:20,150 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:24:20,261 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:24:20,839 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:24:20,839 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:24:21,216 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:24:21,216 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:24:21,216 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:24:21,216 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:24:21,216 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:24:21,233 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 08:24:21,233 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 08:24:53,491 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 08:24:54,395 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:24:58,579 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:24:58,593 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:24:58,695 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:24:59,179 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:24:59,179 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:24:59,565 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:24:59,565 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:24:59,565 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:24:59,565 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:24:59,566 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:24:59,575 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 08:24:59,577 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 08:25:26,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 08:25:27,623 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:45:21,469 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:45:21,471 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-16 08:45:23,518 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /get_symptoms HTTP/11" 404 207
+2025-02-16 08:45:23,518 - __main__ - ERROR - Failed to fetch symptoms: 404
+2025-02-16 08:45:23,518 - __main__ - WARNING - Could not connect to external symptoms service: Failed to fetch symptoms from external service
+2025-02-16 08:45:23,518 - __main__ - WARNING - Application will start, but external service connection failed
+2025-02-16 08:45:23,531 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:45:23,633 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:45:24,242 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:45:24,242 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:45:24,657 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:45:24,657 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:45:24,657 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:45:24,657 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:45:24,657 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:45:24,665 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 08:45:24,665 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 08:45:24,665 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 08:45:29,033 - __main__ - INFO - Starting Flask application...
+2025-02-16 08:45:29,035 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-16 08:45:31,062 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /get_symptoms HTTP/11" 404 207
+2025-02-16 08:45:31,062 - __main__ - ERROR - Failed to fetch symptoms: 404
+2025-02-16 08:45:31,062 - __main__ - WARNING - Could not connect to external symptoms service: Failed to fetch symptoms from external service
+2025-02-16 08:45:31,062 - __main__ - WARNING - Application will start, but external service connection failed
+2025-02-16 08:45:31,076 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 08:45:31,179 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 08:45:31,652 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 08:45:31,652 - __main__ - INFO - Model loaded successfully
+2025-02-16 08:45:32,053 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 08:45:32,053 - __main__ - INFO - Data files loaded successfully
+2025-02-16 08:45:32,053 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 08:45:32,053 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 08:45:32,053 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 08:45:32,060 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 08:45:32,060 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 09:07:30,126 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:07:30,128 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-16 09:07:34,166 - __main__ - ERROR - Error connecting to external service: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002167CEBC860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:07:34,166 - __main__ - WARNING - Could not connect to external symptoms service: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002167CEBC860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:07:34,166 - __main__ - WARNING - Application will start, but external service connection failed
+2025-02-16 09:07:34,182 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:07:34,302 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:07:35,041 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:07:35,041 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:07:35,416 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:07:35,416 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:07:35,416 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:07:35,416 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:07:35,416 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:07:35,416 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 09:07:35,416 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 09:07:35,432 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 09:07:39,916 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:07:39,916 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-16 09:07:44,013 - __main__ - ERROR - Error connecting to external service: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A2EC60530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:07:44,013 - __main__ - WARNING - Could not connect to external symptoms service: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A2EC60530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:07:44,013 - __main__ - WARNING - Application will start, but external service connection failed
+2025-02-16 09:07:44,013 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:07:44,125 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:07:44,618 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:07:44,618 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:07:45,010 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:07:45,010 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:07:45,010 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:07:45,010 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:07:45,010 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:07:45,026 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 09:07:45,026 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 09:07:56,859 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-16 09:08:00,920 - __main__ - ERROR - Error connecting to external service: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A31B2C860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:08:00,920 - __main__ - ERROR - Error rendering index page: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /get_symptoms (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A31B2C860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-16 09:08:00,920 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:08:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-16 09:08:00,952 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:08:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-16 09:09:10,899 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:09:10,914 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:09:11,030 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:09:11,540 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:09:11,540 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:09:11,984 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:09:11,984 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:09:11,984 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:09:11,984 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:09:11,984 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:09:12,005 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 09:09:12,005 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 09:09:12,006 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 09:09:15,964 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:09:15,964 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:09:16,077 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:09:16,578 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:09:16,578 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:09:16,963 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:09:16,963 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:09:16,963 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:09:16,963 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:09:16,963 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:09:16,979 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 09:09:16,981 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 09:09:17,016 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:09:17] "GET / HTTP/1.1" 200 -
+2025-02-16 09:09:17,079 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:09:17] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-16 09:09:20,812 - __main__ - INFO - Received prediction request
+2025-02-16 09:09:20,854 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:09:20,854 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:09:21,229 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:09:26,074 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 09:09:26,101 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:09:26] "POST /predict HTTP/1.1" 200 -
+2025-02-16 09:57:08,002 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:57:08,028 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:57:08,174 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:57:09,040 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:57:09,040 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:57:09,542 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:57:09,542 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:57:09,542 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:57:09,542 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:57:09,542 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:57:09,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 09:57:09,562 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 09:57:09,562 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 09:57:13,777 - __main__ - INFO - Starting Flask application...
+2025-02-16 09:57:13,782 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 09:57:13,889 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 09:57:14,403 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 09:57:14,403 - __main__ - INFO - Model loaded successfully
+2025-02-16 09:57:14,808 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 09:57:14,808 - __main__ - INFO - Data files loaded successfully
+2025-02-16 09:57:14,808 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 09:57:14,808 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 09:57:14,808 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 09:57:14,819 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 09:57:14,822 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 09:57:14,839 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:57:14] "GET / HTTP/1.1" 200 -
+2025-02-16 09:57:14,843 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:57:14] "GET / HTTP/1.1" 200 -
+2025-02-16 09:57:14,898 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 09:57:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:07:27,153 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 10:07:28,627 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:07:34,990 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:07:35,000 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:07:35,100 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:07:35,564 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:07:35,564 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:07:35,953 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:07:35,956 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:07:35,956 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:07:35,956 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:07:35,956 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:07:35,964 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 10:07:35,964 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 10:13:40,307 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:13:40] "GET / HTTP/1.1" 200 -
+2025-02-16 10:13:40,401 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:13:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:15:53,190 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:15:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:16:02,749 - __main__ - INFO - Received prediction request
+2025-02-16 10:16:02,813 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:16:02,813 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:16:03,479 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:16:27,247 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:16:27,247 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:16:27] "POST /predict HTTP/1.1" 200 -
+2025-02-16 10:22:55,284 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 10:22:57,010 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:23:03,872 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:23:03,888 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:23:04,002 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:23:04,747 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:23:04,747 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:23:05,162 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:23:05,162 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:23:05,162 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:23:05,162 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:23:05,162 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:23:05,168 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 10:23:05,168 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 10:24:41,567 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:24:41] "GET / HTTP/1.1" 200 -
+2025-02-16 10:24:41,657 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:24:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:24:47,871 - __main__ - INFO - Received prediction request
+2025-02-16 10:24:47,938 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:24:47,938 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:24:48,645 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:24:53,521 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:24:53,521 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:24:53] "POST /predict HTTP/1.1" 200 -
+2025-02-16 10:28:18,138 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 10:28:19,204 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:28:26,106 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:28:26,119 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:28:26,238 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:28:26,758 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:28:26,758 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:28:27,151 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:28:27,151 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:28:27,151 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:28:27,151 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:28:27,151 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:28:27,158 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 10:28:27,165 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 10:29:25,851 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Prashant\\Documents\\Himnish\\Web Development\\AI for doctors\\flask_model_api\\app.py', reloading
+2025-02-16 10:29:27,084 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:29:40,865 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:29:40,876 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:29:41,026 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:29:41,704 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:29:41,704 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:29:42,139 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:29:42,139 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:29:42,139 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:29:42,139 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:29:42,139 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:29:42,206 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 10:29:42,206 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 10:29:42,212 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:29:46,591 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:29:46,595 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:29:46,706 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:29:47,223 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:29:47,223 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:29:47,640 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:29:47,640 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:29:47,640 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:29:47,640 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:29:47,640 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:29:47,650 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 10:29:47,650 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 10:29:53,418 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:29:53] "GET / HTTP/1.1" 200 -
+2025-02-16 10:29:53,435 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:29:53] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-02-16 10:29:53,470 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:29:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:35:42,503 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:35:42,510 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:35:43,171 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:35:43,171 - __main__ - INFO - Received prediction request
+2025-02-16 10:35:43,234 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:35:43,234 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:35:43,924 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:35:55,337 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:35:55,353 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:35:55] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:38:05,217 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:05,217 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:05,885 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:05,885 - __main__ - INFO - Received prediction request
+2025-02-16 10:38:05,934 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:05,934 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:06,671 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:11,118 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:11,430 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:13,378 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:13] "GET / HTTP/1.1" 200 -
+2025-02-16 10:38:13,441 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:38:13,454 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:13] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-02-16 10:38:14,719 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:14,719 - __main__ - INFO - Received prediction request
+2025-02-16 10:38:15,628 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:16,173 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:16,205 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:16,300 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:19,041 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:19,052 - __main__ - INFO - Received prediction request
+2025-02-16 10:38:19,089 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:19,771 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:38:20,199 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:38:20,770 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:38:20,770 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:20] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:38:23,035 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:38:34,623 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:38:34,631 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:34] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:38:37,763 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:38:37,771 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:38:37] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:39:02,117 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:02,129 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:02,768 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:02,768 - __main__ - INFO - Received prediction request
+2025-02-16 10:39:02,831 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:02,837 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:03,395 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:03,529 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000013C5860AF20> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-16 10:39:07,759 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:07,989 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:11,319 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:11,337 - __main__ - INFO - Received prediction request
+2025-02-16 10:39:12,232 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:12,311 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:12,826 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:12,986 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:14,827 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:15,556 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:15,572 - __main__ - INFO - Received prediction request
+2025-02-16 10:39:15,637 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000013C6FF0ECA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-16 10:39:16,815 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:17,227 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:17,576 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:39:17,576 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:39:17] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:39:20,029 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:39:31,041 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:39:31,058 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:39:31] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:39:34,937 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:39:34,937 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:39:34] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:39:53,544 - __main__ - INFO - Received prediction request
+2025-02-16 10:39:53,608 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:39:53,620 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:39:54,290 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:40:09,784 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:40:09,784 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:40:09] "POST /predict HTTP/1.1" 200 -
+2025-02-16 10:40:32,234 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:40:32] "GET / HTTP/1.1" 200 -
+2025-02-16 10:40:32,253 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:40:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:40:32,260 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:40:32] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-02-16 10:40:38,433 - __main__ - INFO - Received prediction request
+2025-02-16 10:40:38,556 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:40:38,562 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:40:39,263 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:40:47,477 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:40:47,483 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:40:47] "POST /predict HTTP/1.1" 200 -
+2025-02-16 10:41:18,310 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:41:18,316 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:41:18,483 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:41:19,212 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:41:19,212 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:41:19,792 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:41:19,792 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:41:19,792 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:41:19,792 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:41:19,792 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:41:19,808 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-02-16 10:41:19,808 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-16 10:41:19,824 - werkzeug - INFO -  * Restarting with stat
+2025-02-16 10:41:24,776 - __main__ - INFO - Starting Flask application...
+2025-02-16 10:41:24,792 - h5py._conv - DEBUG - Creating converter from 3 to 5
+2025-02-16 10:41:24,887 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:41:25,453 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:41:25,453 - __main__ - INFO - Model loaded successfully
+2025-02-16 10:41:25,838 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:41:25,838 - __main__ - INFO - Data files loaded successfully
+2025-02-16 10:41:25,838 - __main__ - INFO - Number of diseases in data: 197
+2025-02-16 10:41:25,838 - __main__ - INFO - Number of drug interactions: 191148
+2025-02-16 10:41:25,838 - __main__ - INFO - Number of side effects: 2931
+2025-02-16 10:41:25,843 - werkzeug - WARNING -  * Debugger is active!
+2025-02-16 10:41:25,854 - werkzeug - INFO -  * Debugger PIN: 512-783-225
+2025-02-16 10:41:25,872 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:25] "GET / HTTP/1.1" 200 -
+2025-02-16 10:41:25,890 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:25] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-02-16 10:41:25,932 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:41:33,785 - __main__ - INFO - Received prediction request
+2025-02-16 10:41:33,869 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:41:33,869 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:41:34,535 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:41:41,763 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:41:41,763 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:41] "POST /predict HTTP/1.1" 200 -
+2025-02-16 10:41:51,507 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:51] "GET / HTTP/1.1" 200 -
+2025-02-16 10:41:51,526 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-16 10:41:51,527 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:41:51] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-02-16 10:42:48,934 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:42:48,950 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:42:49,598 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:42:49,598 - __main__ - INFO - Received prediction request
+2025-02-16 10:42:49,677 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:42:49,677 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:42:50,308 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:42:54,984 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:42:55,378 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:42:58,579 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:42:58,610 - __main__ - INFO - Received prediction request
+2025-02-16 10:42:59,549 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:42:59,872 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:42:59,956 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:42:59,961 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:42:59] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:42:59,971 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:42:59,971 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:43:00,589 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:43:00,684 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:43:00,684 - __main__ - INFO - Received prediction request
+2025-02-16 10:43:00,732 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-16 10:43:00,757 - __main__ - INFO - Successfully loaded model and encoder
+2025-02-16 10:43:03,079 - __main__ - INFO - Successfully loaded drug data
+2025-02-16 10:43:09,671 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:43:09,688 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:43:09] "POST /receive-symptoms HTTP/1.1" 200 -
+2025-02-16 10:43:12,576 - __main__ - INFO - Successfully generated prediction response
+2025-02-16 10:43:12,593 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2025 10:43:12] "POST /receive-symptoms HTTP/1.1" 200 -
